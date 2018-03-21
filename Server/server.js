@@ -129,6 +129,7 @@ app.post('/users', (req, res) => {
 
 app.listen(port, () => {
   console.log(`Started up at port ${port}`);
+  console.log('lasjglj');
 });
 
 module.exports = {app};
